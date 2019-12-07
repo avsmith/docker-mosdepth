@@ -2,7 +2,7 @@
 FROM ubuntu:18.04
 
 # set the environment variables
-ENV mosdepth_version 0.2.5
+ENV mosdepth_version 0.2.6
 
 # run update
 RUN apt-get update -y && apt-get install -y \
