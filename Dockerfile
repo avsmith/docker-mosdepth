@@ -15,4 +15,5 @@ RUN chmod +x mosdepth
 
 # set default command
 WORKDIR /usr/local/bin
+ENV PATH="/usr/local/bin:${PATH}"
 CMD ["mosdepth --help"]
